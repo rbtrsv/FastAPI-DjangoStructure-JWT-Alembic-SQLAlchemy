@@ -1,0 +1,1 @@
+# FastAPI-DjangoStructure-JWT-Alembic-SQLAlchemy
