@@ -1,0 +1,25 @@
+
+### Tutorials
+https://testdriven.io/blog/fastapi-sqlmodel/ – FastAPI with Async SQLAlchemy, SQLModel, and Alembic
+https://medium.com/@estretyakov/the-ultimate-async-setup-fastapi-sqlmodel-alembic-pytest-ae5cdcfed3d4 – The ultimate async setup: FastAPI, SQLModel, Alembic, Pytest
+https://testdriven.io/blog/fastapi-crud/ – Developing and Testing an Asynchronous API with FastAPI and Pytest
+
+Prompts:
+Ensure that all aspects of the explanation, code, or component are fully represented, with no critical parts omitted.
+Conduct a thorough review of the information provided before finalizing the output to confirm its correctness. 
+It is essential that the complete structure and function of the content are intact. 
+Additionally, for the sake of clarity and uniformity, please adhere to a coding format with an indentation of four spaces (Python style). 
+Your response should reflect careful consideration and attentiveness to these requirements.
+Try to be consisted with the code provided in the previous examples.
+Give less explanations and more code.
+Make the code as professional as possible and production ready.
+Give me the code complete, without missing parts, no comments instead of code chunks.
+I do not want to see "{/* ...rest of the component... */}".
+
+Outline:
+├── models.py  # User models
+├── schemas.py  # Pydantic schemas for user-related operations
+├── crud.py  # CRUD operations for users
+├── security.py  # Password hashing and JWT token operations
+├── utils.py  # Email sending utilities and other helpers
+└── routers.py  # Endpoints for authentication (login, signup, etc.)"

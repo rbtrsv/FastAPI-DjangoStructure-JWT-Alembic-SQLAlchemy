@@ -1,0 +1,111 @@
+.
+├── README.md
+├── __pycache__
+│   ├── main.cpython-311.pyc
+│   └── main.cpython-39.pyc
+├── alembic.ini
+├── apps
+│   ├── custom_auth
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   └── __init__.cpython-39.pyc
+│   │   ├── database
+│   │   │   ├── __init__.py
+│   │   │   └── __pycache__
+│   │   │       ├── __init__.cpython-311.pyc
+│   │   │       ├── __init__.cpython-39.pyc
+│   │   │       ├── connection.cpython-311.pyc
+│   │   │       ├── connection.cpython-39.pyc
+│   │   │       ├── db.cpython-311.pyc
+│   │   │       ├── models.cpython-311.pyc
+│   │   │       ├── models.cpython-39.pyc
+│   │   │       ├── queries.cpython-311.pyc
+│   │   │       ├── queries.cpython-39.pyc
+│   │   │       ├── schemas.cpython-311.pyc
+│   │   │       ├── schemas.cpython-39.pyc
+│   │   │       └── user_queries.cpython-311.pyc
+│   │   ├── models
+│   │   │   ├── __pycache__
+│   │   │   │   ├── user_models.cpython-311.pyc
+│   │   │   │   └── user_models.cpython-39.pyc
+│   │   │   └── user_models.py
+│   │   ├── queries
+│   │   │   ├── __pycache__
+│   │   │   │   ├── user_queries.cpython-311.pyc
+│   │   │   │   └── user_queries.cpython-39.pyc
+│   │   │   └── user_queries.py
+│   │   ├── routers
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-311.pyc
+│   │   │   │   ├── __init__.cpython-39.pyc
+│   │   │   │   ├── users_router.cpython-311.pyc
+│   │   │   │   └── users_router.cpython-39.pyc
+│   │   │   └── users_router.py
+│   │   ├── schemas
+│   │   │   ├── __pycache__
+│   │   │   │   ├── user_schemas.cpython-311.pyc
+│   │   │   │   ├── users_schemas.cpython-311.pyc
+│   │   │   │   └── users_schemas.cpython-39.pyc
+│   │   │   └── users_schemas.py
+│   │   └── templates
+│   │       ├── base.html
+│   │       └── index.html
+│   ├── main
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── __init__.cpython-39.pyc
+│   │   │   ├── models.cpython-39.pyc
+│   │   │   ├── router.cpython-311.pyc
+│   │   │   └── router.cpython-39.pyc
+│   │   ├── router.py
+│   │   ├── static
+│   │   │   └── public
+│   │   │       └── favicon.ico
+│   │   └── templates
+│   │       └── root.html
+│   └── songs
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-311.pyc
+│       │   ├── __init__.cpython-39.pyc
+│       │   ├── db.cpython-311.pyc
+│       │   ├── models.cpython-311.pyc
+│       │   ├── models.cpython-39.pyc
+│       │   ├── router.cpython-311.pyc
+│       │   └── router.cpython-39.pyc
+│       ├── models.py
+│       └── router.py
+├── commands.txt
+├── core
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── __init__.cpython-39.pyc
+│   │   ├── config.cpython-311.pyc
+│   │   ├── config.cpython-39.pyc
+│   │   ├── db.cpython-311.pyc
+│   │   └── db.cpython-39.pyc
+│   ├── config.py
+│   └── db.py
+├── main.py
+├── migrations
+│   ├── README
+│   ├── __pycache__
+│   │   ├── env.cpython-311.pyc
+│   │   └── env.cpython-39.pyc
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+│       ├── 08b1a5226ff6_initial.py
+│       └── __pycache__
+│           └── 08b1a5226ff6_initial.cpython-311.pyc
+├── notes.txt
+├── requirements.txt
+├── runtime.txt
+├── structure.txt
+└── vercel.json
+
+29 directories, 80 files

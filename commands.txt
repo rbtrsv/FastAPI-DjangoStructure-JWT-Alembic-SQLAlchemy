@@ -1,0 +1,39 @@
+uvicorn main:app --reload --host 0.0.0.0 --port 3500
+pip3 freeze > requirements.txt
+uvicorn[standard]==0.23.2
+pip install --upgrade $(pip freeze | cut -d = -f 1)
+pip install -r requirements.txt --upgrade
+tree . -I 'envfin3114|envfnfa3p9' > structure.txt
+
+alembic init alembic
+alembic init -t async migrations – Alternative command
+Update sqlalchemy.url in project/alembic.ini:
+sqlalchemy.url = postgresql+asyncpg://postgres:postgres@db:5432/foo
+alembic revision --autogenerate -m "Some migration"
+alembic upgrade head
+
+docker-compose up -d
+docker-compose up -d --build
+docker-compose down -v
+docker-compose exec web alembic upgrade head
+docker-compose exec web alembic init -t async migrations
+
+docker run --name finpy-api-pg -d -e POSTGRESQL_PASSWORD=somepass123 -p 5433:5432 bitnami/postgresql:13
+docker start finpy-api-pg 
+docker stop finpy-api-pg
+docker rm finpy-api-pg
+CREATE DATABASE finpy_api_db;
+CREATE USER rbtrsv WITH PASSWORD 'somepass123';
+ALTER DATABASE finpy_api_db OWNER TO rbtrsv;
+postgresql+asyncpg://rbtrsv:somepass123@localhost:5433/finpy_api_db
+
+postgresql+asyncpg://rbtrsv:zkykbPeSIPht42zxYeSzUOCDKAjlXQ9r@dpg-cn70u721hbls73a0vce0-a.frankfurt-postgres.render.com/finpydb
+postgresql+asyncpg://rbtrsv:zkykbPeSIPht42zxYeSzUOCDKAjlXQ9r@dpg-cn70u721hbls73a0vce0-a.frankfurt-postgres.render.com/finpydb
+curl -d '{"name":"Midnight Fit", "artist":"Mogwai", "year":"2021"}' -H "Content-Type: application/json" -X POST http://0.0.0.0:3500/songs/songs/
+SELECT * FROM songs;
+
+openssl rand -hex 32
+
+Render:
+Environment Variables -> PYTHON_VERSION=3.10.5
+Start Command -> uvicorn main:app --host 0.0.0.0 --port 10000
